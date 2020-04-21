@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Extending the adopted spec, each change should have a link to its corresponding pull request appended.
 
+## [9.0.0](https://www.github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v8.1.0...v9.0.0) (2020-04-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* For the safer cluster module, you must now specify `release_channel` instead of `kubernetes_version`.
+
+### Features
+
+* [safer-cluster] Replace "kubernetes_version" with "release_channel" ([#487](https://www.github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/487)) ([5791ac1](https://www.github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/5791ac1f64cbd9355a9e2ee96f29d1c5b8686d60))
+* Add an `auth` submodule outputting a `kubeconfig` ([#469](https://www.github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/469)) ([a5ace36](https://www.github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/a5ace360e42ff393a4d49c5018c7ea947b322404))
+
 ## [8.1.0](https://www.github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v8.0.0...v8.1.0) (2020-04-10)
 
 
